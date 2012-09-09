@@ -1,4 +1,4 @@
-                                                             Word Tag
+                                               Word Tag
 
 	- What is Word Tag?
 
