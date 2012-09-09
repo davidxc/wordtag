@@ -1,0 +1,2 @@
+include LICENSE.txt README.txt
+recursive-include word_tag *.html *.py

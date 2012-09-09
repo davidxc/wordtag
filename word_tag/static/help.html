@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="content-type" 
+		      content="text/html; charset=UTF-8" />
+		<title> Word Tag Help </title>
+		<style type="text/css">
+		  .index {
+		  	list-style-type:decimal;
+		  	padding: 15px; }	
+		  .answers {
+		  	list-style-type: decimal;
+		  	padding:15px;
+		  }
+		  .info {
+		   width: 20em; 
+		  }	
+		</style>
+	</head>
+	<body>
+	<h5> Help </h5>
+	<p> Here are answers to some questions about Word Tag. </p>
+	<p> Index </p>
+	<ul class="index">
+		<li><a href="#q1"> How does Word Tag determine the part of speech? </a> </li>
+		<li><a href="#q2"> How do I cut, copy, and perform other operations on text? </a></li>
+		<li><a href="#q3"> How can I load text from a file? </a></li>
+		<li><a href="#q4"> How can I save the results to a file? </a></li>
+		<li><a href="#q5"> What part of speech tagset does Word Tag use? </a></li>
+		<li><a href="#q6"> What does Full Results show? </a></li>
+		<li><a href="#q7"> What parts of speech are grouped together in the non Full Results view? </a></li>
+	</ul>
+	<br />
+	<ul class="answers">
+	<li><a name="q1"> How does Word Tag determine the part of speech? </a></li>
+	<p class="info"> Word Tag uses the default part of speech tagger provided by the NLTK library, which can be found at nltk.org. This tagger uses the Penn Treebank tagset. </p>
+	<br />
+	<li><a name="q2"> How do I cut, copy, and perform other operations on text? </a></li>
+	<p class="info"> Highlight the text you want to perform an operation on, and then right click and choose the operation. You can also use the Edit menu to perform operations on text. </p>
+	<br />
+	<li><a name="q3"> How can I load text from a file? </a></li>
+	<p class="info"> Click the file menu, click 'Load text from file', and then choose the file that you want to load text from. </p>
+	<br />
+	<li><a name="q4"> How can I save the results to a file? </a></li>
+	<p class="info"> Click the file menu and then click either 'Save results to a text file' or 'Save results to a csv file'. </p>
+	<br />
+	<li><a name="q5"> What part of speech tagset does Word Tag use? </a></li>
+	<p class="info"> Word Tag uses the Penn Treebank tagset. Click on the 'Tagset Details' button to see a list of the part of speech tags and their corresponding parts of speech.</p>
+	<br />
+	<li><a name="q6"> What does Full Results show? </a></li>
+	<p class="info"> Full Results shows the counts for each part of speech listed in the Penn Treebank tagset. The results boxes in the normal application window group the counts for some parts of speech together. </p>
+	<br />
+	<li><a name="q7"> What parts of speech are grouped together in the non Full Results view? </a></li>
+	<p class="info"> Adjectives(JJ), comparative adjectives(JJR), and superlative adjectives(JJS) are counted together under Adjective. 
+		Adverbs(RB), comparative adverbs(RBR), superlative adverbs(RBS), and wh-adverbs(WRB) are counted together under Adverb.
+		Singular or mass nouns(NN) and plural nouns(NNS) are counted together under Nouns.
+		Personal pronouns(PRP), possessive pronouns(PRP$), possessive wh-pronouns(WP$), are counted together under pronouns.
+		Plural proper nouns(NNPS) and singular proper nouns(NNPS) are counted together under Proper Noun. </p>  
+	</ul>
+	</body>
+	
+	
