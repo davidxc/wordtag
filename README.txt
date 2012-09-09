@@ -1,6 +1,6 @@
                                  Word Tag
 
-	 - What is Word Tag?
+	- What is Word Tag?
 
 	   Word Tag is a GUI part of speech tagger that uses the NLTK library.
 
