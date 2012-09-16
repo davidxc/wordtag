@@ -26,7 +26,7 @@ setup(
       description = "GUI part of speech tagger that uses the NLTK library.",
       license = "BSD",
       keywords = "natural language, grammar",
-      url = "https://github.com/david92",
+      url = "https://github.com/davidxc",
 )
       
 
