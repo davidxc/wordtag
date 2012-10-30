@@ -2,6 +2,8 @@
 # -*- coding: utf-8 -*-
 
 """
+Author: David Wong <davidwong.xc@gmail.com>
+License: 3 clause BSD license
 
 This module only contains the text tagging function right now.
 
