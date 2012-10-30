@@ -2,10 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """
-
-This is the main module for the Word Tag program. 
 Author: David Wong <davidwong.xc@gmail.com>
 License: 3-clause BSD license
+
+This is the main module for the Word Tag program. 
 
 """
 
