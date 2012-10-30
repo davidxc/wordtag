@@ -1,5 +1,11 @@
-"""Tests the part of speech tagging and 
-  the part of speech number of occurrences counting."""
+"""
+Author: David Wong <davidwong.xc@gmail.com>
+License: 3 clause BSD license
+
+Tests the part of speech tagging and 
+the part of speech number of occurrences counting.
+
+"""
 
 from __future__ import absolute_import
 from __future__ import unicode_literals
